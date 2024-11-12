@@ -1,0 +1,111 @@
+/* LIGHTSWITCH CSS */
+
+body {
+  display: block;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Full viewport height for vertical centering */
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box; /* Ensures padding doesn’t exceed container width */
+}
+
+.mainDivLight, .mainDivDark {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px; /* Limits the width for centered content */
+  padding: 20px;
+  transition: background-color 0.5s ease;
+}
+
+.mainDivLight {
+  background-color: #ffffcc;
+  color: #000;
+}
+
+.mainDivDark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* END OF LIGHTSWITCH CSS */
+
+/* COUNTER CSS */
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 50vh;
+  margin: 10%;
+  background-color: white;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.stepper {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+input {
+  margin-left: 10px;
+  padding: 5px;
+  font-size: 16px;
+  width: auto;
+}
+
+.labelName{
+  color: #333;
+}
+
+
+/*  END COUNTER CSS */
+
+
+/* COLOR PICKER CSS */
+
+.color-picker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.color-display {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: white;
+  text-transform: capitalize;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* END COLOR PICKER CSS */
