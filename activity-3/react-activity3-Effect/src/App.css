@@ -1,0 +1,47 @@
+body{
+    display: block;
+}
+
+/* Counter.css */
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4%;
+  }
+  
+  .counter-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px; 
+    padding: 20px;
+    background-color: rgb(51, 215, 166);
+    border: 1px solid #0c0202;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #3de343;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #55cbbf;
+  }
+  
+
+/* END COUNTER CSS */
