@@ -45,3 +45,122 @@ body{
   
 
 /* END COUNTER CSS */
+
+
+/* Mouse Position CSS*/
+.mouse-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: rgb(51, 215, 166); /* Light background */
+    margin: 10%;
+  }
+  
+  .position-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    padding: 20px;
+    background-color: #3de343;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 5px 0;
+  }
+  
+/* End Mouse Position CSS */
+
+
+/* Random Color CSS */
+/* RandomColor.css */
+.random-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: rgb(51, 215, 166); /* Light background */
+    margin: 10%;
+  }
+  
+  .color-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #fff;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+/* End Random Color CSS */
+
+/* FetchData CSS */
+/* FetchData.css */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    background-color: rgb(51, 215, 166); /* Light background */
+    margin: 10%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  li:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  p {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+  }
+  
+/* END FetchData CSS */
