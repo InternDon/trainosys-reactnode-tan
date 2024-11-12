@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import '../../src/App.css'
+import '../App.css'
 
 const Counter = () => {
   // Retrieve initial counter value from localStorage or set it to 0

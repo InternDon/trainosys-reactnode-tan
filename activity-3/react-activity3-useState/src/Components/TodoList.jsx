@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../../src/App.css';
+import '../App.css';
 
 const TodoList = () => {
   // State for todos and new todo input
