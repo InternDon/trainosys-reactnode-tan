@@ -1,0 +1,122 @@
+/* Center the input group in the page */
+body,
+html {
+    height: auto;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+.containerOne {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    width: 40cap;   
+    padding: 5%;
+    margin-left: 250px;
+    margin-top: 5%;
+    background-color: #655555; 
+    border-radius: 2%; 
+}
+
+.input-div {
+    width: 250px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #2C2C2C;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 300px;
+}
+
+.input-label {
+    margin-top: 5%;
+    font-weight: bold;
+    color: white;
+}
+
+.input-field {
+    padding: 8px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+/* CARD CSS */
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    background-color: #655555;
+    margin-bottom: 3%;
+
+}
+
+.container-card {
+    width: 250px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #2C2C2C;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.container-card:hover{
+    background-color: #0e8bae;
+    transform: translateY(-4px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.card-image {
+    width: 100%;
+    height: 250px;
+    border-radius: 8px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FFD700;
+    /* Dark text for readability */
+    margin-top: 10px;
+}
+
+.card-price {
+    font-size: 1rem;
+    color: #ADD8E6;
+    /* Price in green for emphasis */
+    margin-top: 5px;
+}
+
+/* END OF CARD CSS */
+
+
+/* Alert CSS */
+.container-alert {
+    border: 1px solid #ccc;     
+    border-radius: 8px;         
+    padding: 20px;               
+    background-color: #655555;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 20px auto;          
+    max-width: 600px;         
+  }
+  
+/* END OF Alert CSS */
